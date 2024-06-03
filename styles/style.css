@@ -4,7 +4,12 @@ main {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1#dev {
-   text-align: center;
-   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header > nav li {
+    display: block;
+    justify-content: space-around;
 }
