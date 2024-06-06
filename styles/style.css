@@ -385,7 +385,15 @@ footer .line-footer p a {
     border-top: 3px solid #ff0000;
 }
 
+.btn-abrir-menu {
+    display: none;
+}
+
 @media screen and (max-width: 1020px) {
+    .btn-abrir-menu {
+        display: block;
+    }
+
     /* classes gerais */
     .flex {
         flex-direction: column;
