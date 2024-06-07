@@ -18,7 +18,6 @@
 body, html {
     background-color: var(--corBackground);
     height: 100vh;
-    overflow-x: hidden;
 }
 
 .interface {
@@ -482,10 +481,6 @@ footer .line-footer p a {
     /* Rodapé */
     footer .line-footer {
         text-align: center;
-    }
-
-    footer .line-footer .logo-footer {
-        margin: -30px;
     }
 
     footer .btn-social {
