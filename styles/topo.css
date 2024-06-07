@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* Estilo topo do site */
+section.topo-do-site {
+    padding: 20px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1 {
+    color: var(--corTextos);
+    font-size: 42px;
+    line-height: 40px;
+    font-weight: 600;
+}
+
+.topo-do-site .txt-topo-site h1 span {
+    color: var(--destaque);
+}
+
+.topo-do-site .txt-topo-site p {
+    color: var(--corTextos);
+    margin: 40px 0px;
+}
+
+.topo-do-site .img-topo-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
