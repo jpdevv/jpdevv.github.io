@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+:root {
+    --corBackground: #000000;
+    --corDestaque: #c50000;
+}
 
 /* Estilo geral */
 * {
@@ -11,9 +15,10 @@
     font-family: "Poppins", sans-serif;
 }
 
-body {
-    background-color: black;
+body, html {
+    background-color: var(--corBackground);
     height: 100vh;
+    overflow-x: hidden;
 }
 
 .interface {
@@ -29,7 +34,7 @@ body {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: #ff0000;
+    background-color: #c50000;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -438,13 +443,17 @@ footer .line-footer p a {
 
     /* Sobre */
     section.sobre {
-        padding: 80px 8%;
+        padding: 80px 4%;
     }
 
     .sobre .txt-sobre h2 {
         font-size: 34px;
         line-height: 36px;
         text-align: center;
+    }
+
+    .sobre .txt-sobre p {
+        max-width: 400px;
     }
 
     .btn-social {
@@ -457,7 +466,7 @@ footer .line-footer p a {
 
     /* Portfolio */
     section.portfolio {
-        padding: 80px 8%;
+        padding: 80px 4%;
     }
 
     .img-port {
