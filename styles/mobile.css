@@ -2,6 +2,10 @@
 
 /* ESTILO DO MENU MOBILE */
 .btn-abrir-menu i {
+    display: none;
+}
+
+.btn-abrir-menu i {
     color: var(--botoesDestaque);
     font-size: 40px;
 }
@@ -64,7 +68,7 @@
 }
 
 @media screen and (max-width: 1020px) {
-    .btn-abrir-menu {
+    .btn-abrir-menu i {
         display: block;
     }
 

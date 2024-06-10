@@ -23,7 +23,3 @@ footer .line-footer p a {
 .borda {
     border-top: 3px solid var(--destaque);
 }
-
-.btn-abrir-menu {
-    display: none;
-}
