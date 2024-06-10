@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 /* ESTILO DO MENU MOBILE */
-.btn-abrir-menu i {
+.btn-abrir-menu, .btn-abrir-menu i {
     display: none;
 }
 
@@ -68,7 +68,7 @@
 }
 
 @media screen and (max-width: 1020px) {
-    .btn-abrir-menu i {
+    .btn-abrir-menu i, .btn-abrir-menu {
         display: block;
     }
 
